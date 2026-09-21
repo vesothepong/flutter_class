@@ -7,10 +7,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Local Image Demo',
-      home: const ImageLocalScreen(),
+      home: ImageLocalScreen(),
     );
   }
 }

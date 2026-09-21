@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Column(
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     width: 300,
                     height: 200,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       image: DecorationImage(
                         image: NetworkImage(
                           "https://picsum.photos/400/300",

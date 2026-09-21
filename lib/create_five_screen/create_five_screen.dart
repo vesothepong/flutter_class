@@ -11,10 +11,10 @@ class EventApp1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Navigator Push',
-      home: const HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }

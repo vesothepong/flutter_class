@@ -12,26 +12,26 @@ class HomeScreen1 extends StatelessWidget {
           padding: const EdgeInsets.all(20.0),
           child: Column(
             children: [
-              Text(
+              const Text(
                 'Where do you want to travel?',
-                style: TextStyle(
+                style: const TextStyle(
                     color: Colors.white,
                     fontSize: 22,
                     fontWeight: FontWeight.bold),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(
                 children: [
-                  CircleAvatar(
+                  const CircleAvatar(
                     backgroundColor: Colors.white,
-                    child: Icon(
+                    child: const Icon(
                       Icons.casino_outlined,
-                      color: Color(0xFF12183C),
+                      color: const Color(0xFF12183C),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 12,
                   ),
                   Expanded(
@@ -41,14 +41,14 @@ class HomeScreen1 extends StatelessWidget {
                     child: InkWell(
                       borderRadius: BorderRadius.circular(24),
                       onTap: () {},
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 12),
-                        child: Row(
+                      child: const Padding(
+                        padding: EdgeInsets.symmetric(vertical: 12),
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
+                          children: const [
                             Text(
                               'Select Destination',
-                              style: TextStyle(
+                              style: const TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w600),
                             ),
@@ -60,14 +60,14 @@ class HomeScreen1 extends StatelessWidget {
                       ),
                     ),
                   )),
-                  SizedBox(
+                  const SizedBox(
                     width: 12,
                   ),
-                  CircleAvatar(
+                  const CircleAvatar(
                     backgroundColor: Colors.white,
-                    child: Icon(
+                    child: const Icon(
                       Icons.search,
-                      color: Color(0xFF12183C),
+                      color: const Color(0xFF12183C),
                     ),
                   )
                 ],

@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_learning/main.dart';
 
 void main() {
   runApp(const Home());

@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -47,21 +45,16 @@ class StudentRegistrationScreen extends StatefulWidget {
       _StudentRegistrationScreenState();
 }
 
-class _StudentRegistrationScreenState
-    extends State<StudentRegistrationScreen> {
+class _StudentRegistrationScreenState extends State<StudentRegistrationScreen> {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
-  final TextEditingController idController =
-      TextEditingController();
+  final TextEditingController idController = TextEditingController();
 
-  final TextEditingController nameController =
-      TextEditingController();
+  final TextEditingController nameController = TextEditingController();
 
-  final TextEditingController emailController =
-      TextEditingController();
+  final TextEditingController emailController = TextEditingController();
 
-  final TextEditingController phoneController =
-      TextEditingController();
+  final TextEditingController phoneController = TextEditingController();
 
   String selectedGender = 'Male';
   String? selectedMajor;
@@ -197,9 +190,7 @@ class _StudentRegistrationScreenState
                 ),
                 resultRow(
                   'Skills',
-                  skills.isEmpty
-                      ? 'No Skill Selected'
-                      : skills.join(', '),
+                  skills.isEmpty ? 'No Skill Selected' : skills.join(', '),
                 ),
                 resultRow(
                   'Notification',
@@ -368,8 +359,7 @@ class _StudentRegistrationScreenState
                   return 'សូមបញ្ចូល Email';
                 }
 
-                if (!value.contains('@') ||
-                    !value.contains('.')) {
+                if (!value.contains('@') || !value.contains('.')) {
                   return 'Email មិនត្រឹមត្រូវ';
                 }
 
